@@ -1,0 +1,9 @@
+#python program to find area of a circle
+import math
+def findarea(r):
+  pi = 3.142
+  return pi*(r*r);
+
+#drivermethod
+num=float(input("enter r value:"))
+print("area is %.6f " % findarea(num));
